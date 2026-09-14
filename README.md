@@ -2,13 +2,13 @@
  
 Plataforma que centraliza informações acadêmicas e institucionais da Universidade de Brasília (UnB), combinando duas frentes:
  
-1. **Base de conhecimento colaborativa** — resumos, dicas, dificuldades comuns e materiais organizados por curso e disciplina.
-2. **Central de editais e avisos** — publicações oficiais da UnB reunidas em um só lugar, com transparência sobre origem e data de atualização.
-Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Software (MDS) — 2026/2**, Universidade de Brasília.
+1. **Base de conhecimento colaborativa** resumos, dicas, dificuldades comuns e materiais organizados por curso e disciplina.
+2. **Central de editais e avisos** publicações oficiais da UnB reunidas em um só lugar, com transparência sobre origem e data de atualização.
+Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Software (MDS) - 2026/2**, Universidade de Brasília.
 
 ## Status do projeto
 
-**Fase atual: documentação e planejamento.** Ainda não há implementação — o repositório contém a especificação de requisitos, a organização do backend (spec-kit) e os documentos de sprint.
+**Fase atual: documentação e planejamento.** Ainda não há implementação. O repositório contém a especificação de requisitos, a organização do backend (spec-kit) e os documentos de sprint.
  
 ## Integrantes
  
@@ -24,9 +24,9 @@ Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Softw
 
 ## Documentação
  
-- [`docs/requisitos.md`](docs/requisitos.md) — Visão geral, requisitos funcionais e não funcionais, entidades e critérios de sucesso.
-- [`docs/backend`](docs/backend) — Documentação das Sprints do Backend.
-- [`docs/frontend`](docs/brontend) — Documentação das Sprints do Frontend.
+- [`docs/requisitos.md`](docs/requisitos.md) Visão geral, requisitos funcionais e não funcionais, entidades e critérios de sucesso.
+- [`docs/backend`](docs/backend) Documentação das Sprints do Backend.
+- [`docs/frontend`](docs/brontend) Documentação das Sprints do Frontend.
 
 ## Stack planejada
  
@@ -36,7 +36,7 @@ Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Softw
  
 ## Como rodar localmente
  
-_Ainda não aplicável — projeto em fase de especificação. Esta seção será atualizada assim que a implementação do MVP começar._
+_Ainda não aplicável. O projeto em fase de especificação. Esta seção será atualizada assim que a implementação do MVP começar._
  
 ## Contribuindo
  
