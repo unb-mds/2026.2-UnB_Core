@@ -11,8 +11,6 @@ class DenunciaBase(SQLModel):
     tipo: str
     descricao: str
     estado: str = "aberta"
-    criada_em: datetime = Field(default_factory=datetime.now)
-    atualizada_em: datetime = Field(default_factory=datetime.now)
 
     @field_validator("estado")
     @classmethod
@@ -34,7 +32,8 @@ class DenunciaBase(SQLModel):
 
 class Denuncia(DenunciaBase, table=True):
     id: int | None = Field(default=None, primary_key=True)
-
+    criada_em: datetime = Field(default_factory=datetime.now)
+    atualizada_em: datetime = Field(default_factory=datetime.now
 
 class DenunciaCreate(DenunciaBase):
     pass

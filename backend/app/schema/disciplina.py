@@ -27,8 +27,9 @@ def codigoDisciplina(value: str) ->str:
 class DisciplinaBase(SQLModel):
     codigo: Annotated[str, AfterValidator(codigoDisciplina)]
     nome: str
-    periodo: datetime = Field(default_factory=datetime.now)
+    periodo: datetime
     ativo : bool
+
 
 class Disciplina(DisciplinaBase,table = True):
     id: int | None = Field(default=None,

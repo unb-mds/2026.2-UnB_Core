@@ -11,13 +11,21 @@ class UsuarioBase(SQLModel):
     nome : str
     perfil : str
     status : str #troquei o literal pois SQLModel não aceita literal
-
+    #senha_hash colocar depois
+    ativo : bool # defini se o usuario é frequente ao site
 
     @field_validator("status")
     def validate_status(cls,v):
         permitido = ["Online","Offline","Aparecer Offline","Ausente"]
         if v not in permitido:
             raise ValueError(f"deve ser um dos status a sequir {permitido}")
+        return v
+
+    @field_validator("perfil")
+    def validate_perfil(cls,v):
+        permitido = ["usuario","moderador","administrador"]
+        if v not in permitido:
+            raise ValueError(f"Perfil de usuario não valido {v}")
         return v
 
 class Usuario(UsuarioBase,table = True):

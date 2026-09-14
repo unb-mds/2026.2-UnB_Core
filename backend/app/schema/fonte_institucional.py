@@ -1,16 +1,17 @@
 from datetime import datetime
 
-from pydantic import field_validator
+from pydantic import field_validator,HttpUrl
 from sqlmodel import SQLModel, Field
 
 
 class FonteInstitucionalBase(SQLModel):
     nome: str
     unidade_responsavel: str
-    url_base: str
-    frequencia_verificacao: str
-    estado: str = "ativa"
-    ultima_verificacao: datetime | None = None
+    url_base: HttpUrl
+    url_base : str = str(url_base)
+    frequencia_verificacao: str #para que isso serve?
+    estado: str | None
+    ultima_verificacao: datetime | None = None #Vai sempre deixar a verificação como None
 
     @field_validator("estado")
     @classmethod

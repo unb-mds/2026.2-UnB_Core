@@ -6,7 +6,7 @@ from sqlmodel import SQLModel, Field
 
 class SubmissaoBase(SQLModel):
     disciplina_id : int #colocar validação depois
-    tipo : str
+    tipo : str # COLOCAR VERIFICAÇÃO DEPOIS
     origem : str #Muda tipo tipos
     estado : str
 

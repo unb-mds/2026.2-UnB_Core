@@ -13,11 +13,11 @@ class PublicacaoInstitucionalBase(SQLModel):
     curso_id: int | None = None
     url_oficial: HttpUrl =   Field(unique=True, index=True, sa_type=AutoString)
     url_oficial : str = str(url_oficial)
-    publicado_em: datetime | None = None
-    prazo_inicio: datetime | None = None
-    prazo_fim: datetime | None = None
+    publicado_em: datetime | None = None #Vai sempre deixar a verificação como None
+    prazo_inicio: datetime | None = None # mesmo problema do de cima
+    prazo_fim: datetime | None = None # mesmo problema
     estado: str = "nao_verificada"
-    ultima_verificacao: datetime | None = None
+    ultima_verificacao: datetime | None = None #mesmo problama
 
     @field_validator("estado")
     @classmethod
