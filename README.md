@@ -26,7 +26,8 @@ Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Softw
  
 - [`docs/requisitos.md`](docs/requisitos.md) Visão geral, requisitos funcionais e não funcionais, entidades e critérios de sucesso.
 - [`docs/backend`](docs/backend) Documentação das Sprints do Backend.
-- [`docs/frontend`](docs/brontend) Documentação das Sprints do Frontend.
+- [`docs/frontend`](docs/frontend) Documentação das Sprints do Frontend.
+- [`docs/documento_de_visao.md`](docs/documento_de_visao.md) Documento de Visão.
 - Figma do projeto: https://www.figma.com/board/qmgPv7RFMwdFjr0kqOzTag/Welcome-to-FigJam?node-id=1-2&t=QFJpQxSbXNEcukDx-1
 
 ## Stack planejada
