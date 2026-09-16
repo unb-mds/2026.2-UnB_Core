@@ -14,12 +14,12 @@ Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Softw
  
 | Nome | Matricula | Função |
 |---|---|---|
-| Arthur Vinicius Morais de Lima | 242015764 | _preencher_ |
-| Breno Henrique da Rocha Rodrigues | 222006599 | _preencher_ |
-| Daniel Almeida Frota | 251041010 | _preencher_ |
-| Daniel Paz Dos Passos | 222021862 | _preencher_ | 
-| Deboráh Fragoso da Silva | 251036333 | _preencher_ |
-| João Vithor Camargo Emidio | 251023264 | _preencher_ |
+| Arthur Vinicius Morais de Lima | 242015764 | _Backend_dev_ |
+| Breno Henrique da Rocha Rodrigues | 222006599 | _Backend_dev_ |
+| Daniel Almeida Frota | 251041010 | _Frontend_dev_ |
+| Daniel Paz Dos Passos | 222021862 | _Backend_dev_ | 
+| Deboráh Fragoso da Silva | 251036333 | _Frontend_dev_ |
+| João Vithor Camargo Emidio | 251023264 | _Backend_dev_ |
 
 
 ## Documentação
