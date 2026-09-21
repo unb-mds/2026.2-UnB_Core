@@ -2,9 +2,9 @@
 
 ## Direção conceitual
 
-A identidade parte do trocadilho com o nome **CORE**: um azul profundo e um ciano de alta energia, na linha do que a Intel usa na linha Core Ultra — transmite a sensação de "núcleo", potência e confiabilidade técnica. Para não cair no clichê genérico de "produto de IA" (fundo quase preto + acento neon em tudo), o azul profundo é usado como **cor de marca concentrada** — cabeçalho, cartão de destaque, navegação ativa, ícones e botões primários — enquanto o restante da interface (cards de conteúdo, corpo de texto) permanece em base clara, garantindo legibilidade para leitura longa de editais e resumos.
+A identidade parte do trocadilho com o nome **CORE**: um azul profundo e um ciano de alta energia, na linha do que a Intel usa na linha Core Ultra, o qual transmite a sensação de "núcleo", potência e confiabilidade técnica. Para não cair no clichê genérico de "produto de IA" (fundo quase preto + acento neon em tudo), o azul profundo é usado como **cor de marca concentrada** no cabeçalho, cartão de destaque, navegação ativa, ícones e botões primários, enquanto o restante da interface (cards de conteúdo, corpo de texto) permanece em base clara, garantindo legibilidade para leitura longa de editais e resumos.
 
-A tipografia usa uma monoespaçada (JetBrains Mono) como assinatura de identidade — remete a terminal e spec sheet, reforçando o trocadilho com "Core" e conversando direto com o público de Engenharia de Software — mas **só em pontos de alto impacto**: logo, headline do hero e títulos de seção. Todo o resto usa uma humanista sem serifa (IBM Plex Sans), que segura bem a leitura de parágrafos longos em editais e resumos.
+A tipografia usa uma monoespaçada (JetBrains Mono) como assinatura de identidade remete a terminal e spec sheet, reforçando o trocadilho com "Core" e conversando direto com o público de Engenharia de Software — mas **só em pontos de alto impacto**: logo, headline do hero e títulos de seção. Todo o resto usa uma humanista sem serifa (IBM Plex Sans), que segura bem a leitura de parágrafos longos em editais e resumos.
 
 ## Princípios de uso
 
