@@ -53,7 +53,8 @@
 - Debórah:
   *
  
-- João Vithor : 
+- João Vithor :
+  
   *Vou tentar resolver o porblema de amazina um array/lista de int no SQlite
 
   
