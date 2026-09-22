@@ -13,3 +13,7 @@ class Curso(CursoBase, table=True):
 
 class CursoCreate(CursoBase):
     pass
+
+class CursoGet(SQLModel):
+    sigla : str | None
+    nome : str | None
