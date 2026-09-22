@@ -32,7 +32,9 @@
   *
  
 - João Vithor : 
-  *
+  *Eu criei classes de saida e entrada em publicacao e disciplina
+  *Vou tentar resolver o porblema de amazina um array/lista de int no SQlite
+  *SQlite Não conseque amazenar array/lista de int
   
 ---
 
