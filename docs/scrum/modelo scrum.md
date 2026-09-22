@@ -79,12 +79,3 @@
   * 
 
  
-
-
-
-
-
-
-
- arthur o pc ficou sem espaço precisa trabalhar pra liberar espaço no pc, sabe que vai precisar criar 3 partes do docker e criou um template mas ficou limitado por conta do espaço do pc.
-breno ainda não sabe oq fazer
