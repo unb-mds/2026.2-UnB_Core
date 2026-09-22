@@ -65,10 +65,11 @@ class PublicacaoInstitucionalGet(SQLModel):
 @publicacao_router.get("/{publicacao_id}")
 async def get_publicacao(publicacao_id: int):
     with Session(engine) as session:
-        publicacao = session.get(PublicacaoInstitucional,publicacao_id)
-        if not publicacao:
+        publicacaoProcurar = session.get(PublicacaoInstitucional,publicacao_id)
+        if not publicacaoProcurar:
             raise HTTPException(status_code=404,
                                 detail=f"publicação com Id {publicacao_id} não existe")
+        publicacao = PublicacaoInstitucionalGet.model_validate(publicacaoProcurar)
         return publicacao
 
 
