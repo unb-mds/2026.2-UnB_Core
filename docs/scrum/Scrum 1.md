@@ -23,7 +23,7 @@
   * 
 
 - Daniel Almeida:
-  * 
+  * Fiz a documentação do Design utilizado no frontend do site, fiz uma documentação no miro e fiz boa parte do protótipo de alta fidelidade no figma. 
 
 - Daniel Paz:
   * 
@@ -45,7 +45,7 @@
   * 
 
 - Daniel Almeida:
-  * 
+  * Boa parte das issues e implementação da minha parte, reunião e scrum
 
 - Daniel Paz:
   * 
@@ -67,7 +67,7 @@
   * 
 
 - Daniel Almeida:
-  * 
+  * Estamos atrasados e isso se torna um empecilho pra dar continuidade no projeto.
 
 - Daniel Paz:
   * 
