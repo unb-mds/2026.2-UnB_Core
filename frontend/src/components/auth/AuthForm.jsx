@@ -4,7 +4,7 @@ import ErrorMessage from '../ErrorMessage'
 import Button from '../ui/Button'
 import './auth.css'
 
-function AuthForm({ mode, onSubmit, isSubmitting = false, error }) {
+function AuthForm({ mode, onSubmit, isSubmitting = false, error, onForgotPassword }) {
   const isSignup = mode === 'signup'
   const [form, setForm] = useState({ nome: '', email: '', senha: '' })
   const [validationError, setValidationError] = useState(null)
@@ -47,7 +47,7 @@ function AuthForm({ mode, onSubmit, isSubmitting = false, error }) {
     <form className="auth-form" onSubmit={submitForm} noValidate>
       {isSignup && (
         <label>
-          Nome
+          Nome de usuário
           <input name="nome" value={form.nome} onChange={updateField} autoComplete="name" required />
         </label>
       )}
@@ -63,6 +63,11 @@ function AuthForm({ mode, onSubmit, isSubmitting = false, error }) {
       <Button type="submit" disabled={isSubmitting}>
         {isSubmitting ? 'Enviando...' : isSignup ? 'Criar conta' : 'Entrar'}
       </Button>
+      {!isSignup && (
+        <button type="button" className="auth-form__forgot" onClick={onForgotPassword}>
+          Esqueceu a senha?
+        </button>
+      )}
     </form>
   )
 }

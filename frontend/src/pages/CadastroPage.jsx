@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { api, ApiError } from '../services/api'
 import AuthForm from '../components/auth/AuthForm'
-import SiteFooter from '../components/SiteFooter'
-import SiteHeader from '../components/SiteHeader'
 import './AuthPage.css'
 
 function CadastroPage({ onNavigate }) {
@@ -26,17 +24,18 @@ function CadastroPage({ onNavigate }) {
 
   return (
     <div className="auth-page-shell">
-      <SiteHeader active="" onNavigate={onNavigate} />
+      <a className="auth-brand" href="/" onClick={(event) => { event.preventDefault(); onNavigate('/') }}>
+        unb<span>core</span>
+      </a>
       <main className="auth-page">
-        <section className="auth-card" aria-labelledby="signup-title">
-          <p className="auth-card__eyebrow">Primeiro acesso</p>
-          <h1 id="signup-title">Crie sua conta</h1>
-          <p className="auth-card__intro">Participe da comunidade acadêmica da UnB.</p>
-          <AuthForm mode="signup" onSubmit={handleSignup} isSubmitting={isSubmitting} error={error} />
-          <p className="auth-card__switch">Já possui uma conta? <a href="/login" onClick={(event) => { event.preventDefault(); onNavigate('/login') }}>Entrar</a></p>
+        <section className="auth-layout auth-layout--signup" aria-labelledby="signup-title">
+          <section className="auth-card" aria-labelledby="signup-title">
+            <h1 id="signup-title">Cadastro</h1>
+            <AuthForm mode="signup" onSubmit={handleSignup} isSubmitting={isSubmitting} error={error} />
+          </section>
+          <div className="auth-message"><span className="auth-dots" aria-hidden="true" />Junte-se<br />a nós!</div>
         </section>
       </main>
-      <SiteFooter />
     </div>
   )
 }
