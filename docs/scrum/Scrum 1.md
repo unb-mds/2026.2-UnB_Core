@@ -17,7 +17,7 @@
 ## O que fiz ontem/desde o último Scrum
 
 - Arthur Vinícius: 
-  * 
+  * Estudo de imagens de Docker para integra-lo com o repositório do projeto.
   
 - Breno : 
   * Estudo de integração do Github Copilot com a IDE
@@ -39,7 +39,7 @@
 ## O que farei hoje 
 
 - Arthur Vinícius: 
-  *
+  * Resolver issues, integrar o repositório com o Docker.
   
 - Breno : 
   * Preencher o scrum, boa parte da documentação do miro e resolver algumas issues
@@ -55,7 +55,7 @@
  
 - João Vithor :
   
-  *Vou tentar resolver o porblema de amazina um array/lista de int no SQlite
+  * Vou tentar resolver o problema de armazenar um array/lista de int no SQlite
 
   
 ---
@@ -63,7 +63,7 @@
 ## Há algum impedimento?
 
 - Arthur Vinícius: 
-  *
+  * Estou bastante atarefado com entregas de outras matérias nesta semana.
   
 - Breno : 
   * Configuração do Github Copilot e Gemini na IDE
