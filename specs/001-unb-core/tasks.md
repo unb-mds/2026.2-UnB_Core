@@ -72,7 +72,7 @@ description: "Tasks de implementação do UNB CORE"
 - [ ] T027 [US2] Implementar `GET /api/v1/disciplinas/{disciplina_id}/conteudos` em `backend/app/api/conteudos.py`, incluindo filtro opcional por tipo.
 - [ ] T028 [US2] Integrar conteúdos acadêmicos ao resultado separado de `GET /api/v1/search` em `backend/app/api/search.py`.
 - [X] T029 [US2] Implementar `frontend/src/pages/ConhecimentoPage.jsx` com seleção de curso, disciplina e tipo, estado vazio e possibilidade de contribuição.
-- [ ] T030 [US2] Criar `frontend/src/components/conteudos/ConteudoCard.jsx` e `frontend/src/components/conteudos/ConteudoDetalhe.jsx` com autoria/origem e data de atualização.
+- [X] T030 [US2] Criar `frontend/src/components/conteudos/ConteudoCard.jsx` e `frontend/src/components/conteudos/ConteudoDetalhe.jsx` com autoria/origem e data de atualização.
 
 **Checkpoint**: A Base de Conhecimento deve ser consultável independentemente da implementação das contribuições.
 

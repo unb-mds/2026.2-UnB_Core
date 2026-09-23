@@ -5,6 +5,8 @@ import EmptyState from '../components/ui/EmptyState'
 import Button from '../components/ui/Button'
 import SiteHeader from '../components/SiteHeader'
 import SiteFooter from '../components/SiteFooter'
+import ConteudoCard from '../components/conteudos/ConteudoCard'
+import ConteudoDetalhe from '../components/conteudos/ConteudoDetalhe'
 import './ConhecimentoPage.css'
 
 const contentTypes = [
@@ -17,40 +19,13 @@ const contentTypes = [
   { value: 'link', label: 'Links úteis' },
 ]
 
-function formatDate(value) {
-  if (!value) {
-    return 'Data não informada'
-  }
-
-  const date = new Date(value)
-  return Number.isNaN(date.getTime())
-    ? value
-    : new Intl.DateTimeFormat('pt-BR', { dateStyle: 'medium' }).format(date)
-}
-
-function ContentCard({ content, onOpen }) {
-  return (
-    <article className="knowledge-card">
-      <div className="knowledge-card__topline">
-        <span className="badge badge-category">{content.tipo || 'Conteúdo'}</span>
-        <span>{formatDate(content.atualizado_em || content.data_atualizacao)}</span>
-      </div>
-      <h2>{content.titulo}</h2>
-      <p>{content.resumo || content.descricao || 'Conteúdo acadêmico publicado pela comunidade.'}</p>
-      <div className="knowledge-card__footer">
-        <span>Por {content.autor_nome || content.autoria || 'colaborador'}</span>
-        <Button variant="outline" onClick={() => onOpen(content)}>Ver conteúdo</Button>
-      </div>
-    </article>
-  )
-}
-
 function ConhecimentoPage({ courses = [{ id: '1', nome: 'Engenharia de Software' }], onContribute = () => {}, onNavigate }) {
   const [selectedCourseId, setSelectedCourseId] = useState('')
   const [selectedDisciplineId, setSelectedDisciplineId] = useState('')
   const [selectedType, setSelectedType] = useState('')
   const [disciplines, setDisciplines] = useState([])
   const [contents, setContents] = useState([])
+  const [selectedContent, setSelectedContent] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState(null)
 
@@ -100,6 +75,7 @@ function ConhecimentoPage({ courses = [{ id: '1', nome: 'Engenharia de Software'
     setSelectedDisciplineId('')
     setDisciplines([])
     setContents([])
+    setSelectedContent(null)
     setError(null)
     setIsLoading(Boolean(event.target.value))
   }
@@ -107,7 +83,9 @@ function ConhecimentoPage({ courses = [{ id: '1', nome: 'Engenharia de Software'
   function selectDiscipline(event) {
     setSelectedDisciplineId(event.target.value)
     setContents([])
+    setSelectedContent(null)
     setError(null)
+    setSelectedContent(null)
     setIsLoading(Boolean(event.target.value))
   }
 
@@ -166,9 +144,10 @@ function ConhecimentoPage({ courses = [{ id: '1', nome: 'Engenharia de Software'
           )}
           {!isLoading && !error && contents.length > 0 && (
             <div className="knowledge-grid">
-              {contents.map((content) => <ContentCard key={content.id} content={content} onOpen={() => {}} />)}
+              {contents.map((content) => <ConteudoCard key={content.id} content={content} onOpen={setSelectedContent} />)}
             </div>
           )}
+          <ConteudoDetalhe content={selectedContent} onClose={() => setSelectedContent(null)} />
         </section>
       </main>
       <SiteFooter />
