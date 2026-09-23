@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import ConhecimentoPage from './pages/ConhecimentoPage'
 import CadastroPage from './pages/CadastroPage'
+import ContribuicaoPage from './pages/ContribuicaoPage'
 import LoginPage from './pages/LoginPage'
 import PublicacaoDetalhePage from './pages/PublicacaoDetalhePage'
 import PublicacoesPage from './pages/PublicacoesPage'
@@ -23,6 +24,10 @@ function getRoute() {
 
   if (path === '/login') {
     return { name: 'login' }
+  }
+
+  if (path === '/contribuicao') {
+    return { name: 'contribution' }
   }
 
   return { name: 'publications' }
@@ -59,6 +64,10 @@ function App() {
 
   if (route.name === 'login') {
     return <LoginPage onNavigate={navigate} />
+  }
+
+  if (route.name === 'contribution') {
+    return <ContribuicaoPage onNavigate={navigate} />
   }
 
   return <PublicacoesPage onSelectPublication={(publication) => navigate(`/editais/${publication.id}`)} onNavigate={navigate} />

@@ -89,7 +89,7 @@ description: "Tasks de implementação do UNB CORE"
 - [ ] T033 [US3] Criar `backend/app/services/contribuicao_service.py` para validar campos obrigatórios e iniciar contribuições no estado `pendente`.
 - [ ] T034 [P] [US3] Criar schemas em `backend/app/api/schemas/contribuicao.py` para diferenciar criação sem `conteudo_id` e alteração com `conteudo_id`.
 - [ ] T035 [US3] Implementar `POST /api/v1/contribuicoes` e `GET /api/v1/contribuicoes/minhas` em `backend/app/api/contribuicoes.py`, exigindo usuário autenticado.
-- [ ] T036 [US3] Implementar `frontend/src/pages/ContribuicaoPage.jsx` com formulário, validação de campos, estado pendente e mensagem de erro orientativa.
+- [X] T036 [US3] Implementar `frontend/src/pages/ContribuicaoPage.jsx` com formulário, validação de campos, estado pendente e mensagem de erro orientativa.
 - [ ] T037 [US3] Implementar `frontend/src/pages/MinhasContribuicoesPage.jsx` para acompanhar estado e justificativa de moderação.
 
 **Checkpoint**: Um usuário autenticado deve conseguir criar e acompanhar contribuição; usuário anônimo deve ser bloqueado.
