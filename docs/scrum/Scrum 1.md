@@ -20,7 +20,7 @@
   * 
   
 - Breno : 
-  * 
+  * Estudo de integração do Github Copilot com a IDE
 
 - Daniel Almeida:
   * Fiz a documentação do Design utilizado no frontend do site, fiz uma documentação no miro e fiz boa parte do protótipo de alta fidelidade no figma. 
@@ -42,7 +42,7 @@
   *
   
 - Breno : 
-  * 
+  * Preencher o scrum, boa parte da documentação do miro e resolver algumas issues
 
 - Daniel Almeida:
   * Boa parte das issues e implementação da minha parte, reunião e scrum
@@ -66,7 +66,7 @@
   *
   
 - Breno : 
-  * 
+  * Configuração do Github Copilot e Gemini na IDE
 
 - Daniel Almeida:
   * Estamos atrasados e isso se torna um empecilho pra dar continuidade no projeto.
