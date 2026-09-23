@@ -54,7 +54,7 @@ description: "Tasks de implementação do UNB CORE"
 - [ ] T020 [US1] Implementar `GET /api/v1/search` em `backend/app/api/search.py`, separando resultados acadêmicos e institucionais.
 - [X] T021 [US1] Implementar a página `frontend/src/pages/PublicacoesPage.jsx` com filtros, estado vazio e mensagens para publicação não verificada ou sem prazo.
 - [X] T022 [US1] Implementar `frontend/src/pages/PublicacaoDetalhePage.jsx` e componentes de origem, estado, datas e link oficial em `frontend/src/components/publicacoes/`.
-- [ ] T023 [US1] Integrar navegação principal entre os dois espaços em `frontend/src/App.jsx` e `frontend/src/components/Navigation.jsx`.
+- [X] T023 [US1] Integrar navegação principal entre os dois espaços em `frontend/src/App.jsx` e `frontend/src/components/Navigation.jsx`.
 
 **Checkpoint**: A consulta institucional pública e a busca unificada devem funcionar sem login.
 
@@ -71,7 +71,7 @@ description: "Tasks de implementação do UNB CORE"
 - [ ] T026 [US2] Implementar `GET /api/v1/cursos/{curso_id}/disciplinas` em `backend/app/api/disciplinas.py`.
 - [ ] T027 [US2] Implementar `GET /api/v1/disciplinas/{disciplina_id}/conteudos` em `backend/app/api/conteudos.py`, incluindo filtro opcional por tipo.
 - [ ] T028 [US2] Integrar conteúdos acadêmicos ao resultado separado de `GET /api/v1/search` em `backend/app/api/search.py`.
-- [ ] T029 [US2] Implementar `frontend/src/pages/ConhecimentoPage.jsx` com seleção de curso, disciplina e tipo, estado vazio e possibilidade de contribuição.
+- [X] T029 [US2] Implementar `frontend/src/pages/ConhecimentoPage.jsx` com seleção de curso, disciplina e tipo, estado vazio e possibilidade de contribuição.
 - [ ] T030 [US2] Criar `frontend/src/components/conteudos/ConteudoCard.jsx` e `frontend/src/components/conteudos/ConteudoDetalhe.jsx` com autoria/origem e data de atualização.
 
 **Checkpoint**: A Base de Conhecimento deve ser consultável independentemente da implementação das contribuições.

@@ -12,7 +12,7 @@ import PublicacaoDatas from '../components/publicacoes/PublicacaoDatas'
 import PublicacaoLinkOficial from '../components/publicacoes/PublicacaoLinkOficial'
 import './PublicacaoDetalhePage.css'
 
-function PublicacaoDetalhePage({ publicationId, publication: initialPublication, onBack = () => {} }) {
+function PublicacaoDetalhePage({ publicationId, publication: initialPublication, onBack = () => {}, onNavigate }) {
   const [publication, setPublication] = useState(initialPublication || null)
   const [isLoading, setIsLoading] = useState(!initialPublication)
   const [error, setError] = useState(null)
@@ -43,7 +43,7 @@ function PublicacaoDetalhePage({ publicationId, publication: initialPublication,
 
   return (
     <div className="publication-detail-shell">
-      <SiteHeader active="editais" />
+      <SiteHeader active="editais" onNavigate={onNavigate} />
       <main className="publication-detail-page">
         <Button variant="outline" onClick={onBack}>← Voltar para editais</Button>
 

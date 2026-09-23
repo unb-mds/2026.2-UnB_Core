@@ -73,7 +73,7 @@ function PublicationCard({ publicacao, onSelect }) {
   )
 }
 
-function PublicacoesPage({ onSelectPublication = () => {} }) {
+function PublicacoesPage({ onSelectPublication = () => {}, onNavigate }) {
   const [filters, setFilters] = useState(initialFilters)
   const [publicacoes, setPublicacoes] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -123,7 +123,7 @@ function PublicacoesPage({ onSelectPublication = () => {} }) {
 
   return (
     <div className="publications-shell">
-      <SiteHeader active="editais" />
+      <SiteHeader active="editais" onNavigate={onNavigate} />
 
       <main className="publications-page">
         <aside className="filter-sidebar" aria-label="Filtros de publicações">
