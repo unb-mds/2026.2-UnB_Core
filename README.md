@@ -85,7 +85,7 @@ Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Softw
 - [`docs/frontend`](docs/frontend) Documentação das Sprints do Frontend.
 - [`docs/documento_de_visao.md`](docs/documento_de_visao.md) Documento de Visão.
 - `Figma Storymap:` https://www.figma.com/board/qmgPv7RFMwdFjr0kqOzTag/Welcome-to-FigJam?node-id=1-2&t=QFJpQxSbXNEcukDx-1
-- `Figma do Protótipo de Alta Fidelidade:` https://www.figma.com/site/wV4UDTWGMPOiqpO7Ik9ErA/UnB_Core?node-id=23-665&t=vpy0So2nUZVnKKSz-1
+- `Figma do Protótipo de Alta Fidelidade (Frontend):` https://www.figma.com/site/wV4UDTWGMPOiqpO7Ik9ErA/UnB_Core?node-id=23-665&t=vpy0So2nUZVnKKSz-1
 
 ## Stack planejada
  
