@@ -53,7 +53,7 @@ description: "Tasks de implementação do UNB CORE"
 - [ ] T019 [US1] Implementar `GET /api/v1/publicacoes` e `GET /api/v1/publicacoes/{id}` em `backend/app/api/publicacoes.py`, com consulta pública e aviso de prevalência da fonte oficial.
 - [ ] T020 [US1] Implementar `GET /api/v1/search` em `backend/app/api/search.py`, separando resultados acadêmicos e institucionais.
 - [X] T021 [US1] Implementar a página `frontend/src/pages/PublicacoesPage.jsx` com filtros, estado vazio e mensagens para publicação não verificada ou sem prazo.
-- [ ] T022 [US1] Implementar `frontend/src/pages/PublicacaoDetalhePage.jsx` e componentes de origem, estado, datas e link oficial em `frontend/src/components/publicacoes/`.
+- [X] T022 [US1] Implementar `frontend/src/pages/PublicacaoDetalhePage.jsx` e componentes de origem, estado, datas e link oficial em `frontend/src/components/publicacoes/`.
 - [ ] T023 [US1] Integrar navegação principal entre os dois espaços em `frontend/src/App.jsx` e `frontend/src/components/Navigation.jsx`.
 
 **Checkpoint**: A consulta institucional pública e a busca unificada devem funcionar sem login.
