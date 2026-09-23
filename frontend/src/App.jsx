@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import ConhecimentoPage from './pages/ConhecimentoPage'
 import CadastroPage from './pages/CadastroPage'
 import ContribuicaoPage from './pages/ContribuicaoPage'
+import MinhasContribuicoesPage from './pages/MinhasContribuicoesPage'
 import LoginPage from './pages/LoginPage'
 import PublicacaoDetalhePage from './pages/PublicacaoDetalhePage'
 import PublicacoesPage from './pages/PublicacoesPage'
@@ -28,6 +29,10 @@ function getRoute() {
 
   if (path === '/contribuicao') {
     return { name: 'contribution' }
+  }
+
+  if (path === '/minhas-contribuicoes') {
+    return { name: 'my-contributions' }
   }
 
   return { name: 'publications' }
@@ -68,6 +73,10 @@ function App() {
 
   if (route.name === 'contribution') {
     return <ContribuicaoPage onNavigate={navigate} />
+  }
+
+  if (route.name === 'my-contributions') {
+    return <MinhasContribuicoesPage onNavigate={navigate} />
   }
 
   return <PublicacoesPage onSelectPublication={(publication) => navigate(`/editais/${publication.id}`)} onNavigate={navigate} />

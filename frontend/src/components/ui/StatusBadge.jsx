@@ -4,6 +4,10 @@ const statusLabels = {
   ativa: 'Ativo',
   encerrada: 'Encerrado',
   arquivada: 'Arquivado',
+  pendente: 'Pendente',
+  aprovada: 'Aprovada',
+  ajustes: 'Ajustes solicitados',
+  rejeitada: 'Rejeitada',
 }
 
 function StatusBadge({ status, variant = 'status' }) {

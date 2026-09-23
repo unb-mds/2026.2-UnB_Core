@@ -29,6 +29,9 @@
 .badge-status { color: var(--color-success); background: var(--color-success-bg); }
 .badge-encerrada, .badge-arquivada { color: var(--color-text-muted); background: var(--color-neutral-10); }
 .badge-unknown { color: var(--color-warning-text); background: var(--color-warning-bg); }
+.badge-pendente, .badge-ajustes { color: var(--color-warning-text); background: var(--color-warning-bg); }
+.badge-aprovada { color: var(--color-success); background: var(--color-success-bg); }
+.badge-rejeitada { color: var(--color-error-text); background: var(--color-error-bg); }
 
 /* ---------- Busca ---------- */
 .search-input { display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 16px; border: 1px solid var(--color-border); border-radius: var(--radius-full); background: var(--color-surface); }
