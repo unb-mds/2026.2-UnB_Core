@@ -1,0 +1,8 @@
+.auth-page-shell { min-height: 100svh; background: var(--color-bg); }
+.auth-page { display: grid; place-items: center; min-height: calc(100svh - 136px); padding: var(--spacing-2xl) var(--spacing-md); }
+.auth-card { width: min(100%, 420px); padding: var(--spacing-xl); border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-surface); box-shadow: var(--shadow-sm); }
+.auth-card__eyebrow { margin: 0 0 var(--spacing-sm); color: var(--color-primary); font-size: 12px; font-weight: 600; }
+.auth-card h1 { margin: 0 0 var(--spacing-sm); color: var(--color-text); font-family: var(--font-display); font-size: 26px; line-height: 1.25; }
+.auth-card__intro { margin: 0 0 var(--spacing-xl); color: var(--color-text-muted); font-size: 14px; line-height: 1.6; }
+.auth-card__switch { margin: var(--spacing-lg) 0 0; color: var(--color-text-muted); font-size: 13px; text-align: center; }
+.auth-card__switch a { color: var(--color-primary); font-weight: 600; }

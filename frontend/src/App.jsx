@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import ConhecimentoPage from './pages/ConhecimentoPage'
+import CadastroPage from './pages/CadastroPage'
+import LoginPage from './pages/LoginPage'
 import PublicacaoDetalhePage from './pages/PublicacaoDetalhePage'
 import PublicacoesPage from './pages/PublicacoesPage'
 
@@ -13,6 +15,14 @@ function getRoute() {
 
   if (path === '/base-de-conhecimentos') {
     return { name: 'knowledge' }
+  }
+
+  if (path === '/cadastro') {
+    return { name: 'signup' }
+  }
+
+  if (path === '/login') {
+    return { name: 'login' }
   }
 
   return { name: 'publications' }
@@ -41,6 +51,14 @@ function App() {
 
   if (route.name === 'knowledge') {
     return <ConhecimentoPage onNavigate={navigate} />
+  }
+
+  if (route.name === 'signup') {
+    return <CadastroPage onNavigate={navigate} />
+  }
+
+  if (route.name === 'login') {
+    return <LoginPage onNavigate={navigate} />
   }
 
   return <PublicacoesPage onSelectPublication={(publication) => navigate(`/editais/${publication.id}`)} onNavigate={navigate} />

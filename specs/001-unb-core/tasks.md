@@ -84,7 +84,7 @@ description: "Tasks de implementação do UNB CORE"
 
 **Independent Test**: Criar uma conta, entrar, enviar uma contribuição válida, consultar seu estado e receber mensagens para campos ausentes ou acesso não autenticado.
 
-- [ ] T031 [P] [US3] Criar `frontend/src/pages/CadastroPage.jsx` e `frontend/src/pages/LoginPage.jsx` para cadastro com nome, e-mail único e senha.
+- [X] T031 [P] [US3] Criar `frontend/src/pages/CadastroPage.jsx` e `frontend/src/pages/LoginPage.jsx` para cadastro com nome, e-mail único e senha.
 - [ ] T032 [P] [US3] Criar schemas de autenticação em `backend/app/api/schemas/auth.py` e rotas `POST /api/v1/auth/cadastro` e `POST /api/v1/auth/login` em `backend/app/api/auth.py`.
 - [ ] T033 [US3] Criar `backend/app/services/contribuicao_service.py` para validar campos obrigatórios e iniciar contribuições no estado `pendente`.
 - [ ] T034 [P] [US3] Criar schemas em `backend/app/api/schemas/contribuicao.py` para diferenciar criação sem `conteudo_id` e alteração com `conteudo_id`.
