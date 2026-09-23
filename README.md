@@ -84,6 +84,7 @@ Projeto desenvolvido para a disciplina de **Métodos de Desenvolvimento de Softw
 - [`docs/backend`](docs/backend) Documentação das Sprints do Backend.
 - [`docs/frontend`](docs/frontend) Documentação das Sprints do Frontend.
 - [`docs/documento_de_visao.md`](docs/documento_de_visao.md) Documento de Visão.
+- `Board no Miro com Documentações Gerais:` https://miro.com/app/board/uXjVHkk8Wek=/?share_link_id=144842983750
 - `Figma Storymap:` https://www.figma.com/board/qmgPv7RFMwdFjr0kqOzTag/Welcome-to-FigJam?node-id=1-2&t=QFJpQxSbXNEcukDx-1
 - `Figma do Protótipo de Alta Fidelidade:` https://www.figma.com/site/wV4UDTWGMPOiqpO7Ik9ErA/UnB_Core?node-id=23-665&t=vpy0So2nUZVnKKSz-1
 
