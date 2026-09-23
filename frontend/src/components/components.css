@@ -2,10 +2,10 @@
   display: grid;
   gap: 4px;
   padding: 12px 14px;
-  border: 1px solid #b42318;
-  border-radius: 6px;
-  color: #7a271a;
-  background: #fef3f2;
+  border: 1px solid var(--color-error);
+  border-radius: var(--radius-sm);
+  color: var(--color-error-text);
+  background: var(--color-error-bg);
   text-align: left;
 }
 
@@ -13,7 +13,3 @@
   font-weight: 700;
 }
 
-.focus-visible :where(a, button, input, select, textarea, [tabindex]):focus-visible {
-  outline: 3px solid #155eef;
-  outline-offset: 3px;
-}
