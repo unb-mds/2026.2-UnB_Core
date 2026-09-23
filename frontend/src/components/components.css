@@ -1,0 +1,19 @@
+.error-message {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid #b42318;
+  border-radius: 6px;
+  color: #7a271a;
+  background: #fef3f2;
+  text-align: left;
+}
+
+.error-message strong {
+  font-weight: 700;
+}
+
+.focus-visible :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid #155eef;
+  outline-offset: 3px;
+}

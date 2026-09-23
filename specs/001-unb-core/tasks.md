@@ -37,8 +37,8 @@ description: "Tasks de implementação do UNB CORE"
 - [ ] T012 Criar `backend/app/services/auth_service.py` com cadastro, login, hash de senha e emissão/validação de sessão ou token, sem retornar senha.
 - [ ] T013 Criar `backend/app/api/dependencies.py` com identificação do usuário atual e verificadores de perfil `moderador` e `administrador`.
 - [ ] T014 Criar `backend/app/api/router.py` para registrar as rotas sob `/api/v1` e conectar o router à aplicação em `backend/app/main.py`.
-- [ ] T015 [P] Criar `frontend/src/services/api.js` com cliente HTTP, tratamento do formato de erro e armazenamento da sessão de acesso.
-- [ ] T016 [P] Criar `frontend/src/state/auth.js` e componentes base em `frontend/src/components/` para estado de autenticação, mensagens de erro e foco visível.
+- [X] T015 [P] Criar `frontend/src/services/api.js` com cliente HTTP, tratamento do formato de erro e armazenamento da sessão de acesso.
+- [X] T016 [P] Criar `frontend/src/state/auth.js` e componentes base em `frontend/src/components/` para estado de autenticação, mensagens de erro e foco visível.
 
 ---
 
