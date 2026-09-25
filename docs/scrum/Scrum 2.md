@@ -32,7 +32,7 @@
   *
  
 - João Vithor : 
-  *
+  *Eu resolvi as ISSUES T019 e T026,se quiser mais detalhes dentro da issue deixei claro o que eu fiz.
   
 ---
 
@@ -54,7 +54,7 @@
   *
  
 - João Vithor : 
-  * 
+  * Ver com o grupo como agente pode fazer o gitpage
   
 ---
 
@@ -76,6 +76,6 @@
   *
  
 - João Vithor: 
-  * 
+  * Conflito com SQLModel e sqlalchemy,achei que não ia da conflito ja que o SQLModel é baseado no alchemy
 
  
